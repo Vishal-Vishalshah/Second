@@ -31,8 +31,10 @@ public class App {
 	
 	public static void main(String[] args) {
 		
+		logger.debug("main start");
 		
 		div(6,3);
+		System.out.println("done logger");
 		
 	}
 }
