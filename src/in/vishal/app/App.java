@@ -15,7 +15,6 @@ public class App {
 	try {
 		appender = new RollingFileAppender(layout,"log.html",false);
 	} catch (IOException e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
 	
